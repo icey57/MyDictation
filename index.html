@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>English Dictation Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>English Dictation Website</h1>
+    <p>Listen to the audio and type down what you hear:</p>
+    <audio controls>
+        <source src="audio/sample.mp3" type="audio/mpeg">
+    </audio>
+    <input type="text" id="dictationText" placeholder="Type here...">
+    <button onclick="checkDictation()">Check Answer</button>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
